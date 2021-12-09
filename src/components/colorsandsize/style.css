@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+.texticon1,
+.texticon2 {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.icon, .iconsize {
+  display: flex;
+  flex-direction: row;
+}
+
+.iconcolor {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+
+  background-color: black;
+}
+
+.iconcolor2 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+
+  background-color: violet;
+}
+
+.iconcolor3 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+
+  background-color: yellow;
+}
+
+.iconcolor4 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+
+  background-color: grey;
+}
+
+.iconsize1 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.iconsize2 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  background-color: grey;
+}
+
+.iconsize3 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  background-color: grey;
+}
