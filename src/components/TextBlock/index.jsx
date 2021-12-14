@@ -1,12 +1,15 @@
 import React from "react";
 import "./style.css";
 
-const Textblock = ({ title1, content, content1 }) => (
+
+const Textblock = ({ name, price, description, src }) => (
   <div>
     
-    <h2 className="titleproduct">{title1}</h2>
-    <p className="price">{content}</p>
-    <p className="description">{content1}</p>
+
+    <img src={src} alt="productimg" className="productimage"/>
+    <h2 className="titleproduct">{name}</h2>
+    <p className="price">{price}</p>
+    <p className="description">{description}</p>
     
     
    

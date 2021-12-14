@@ -1,14 +1,14 @@
 import "./style.css";
 
 
-const Cardimg = ({src}) => (
+const Cardimg = ({ src }) => (
 
     
 
-        <img className="Cardimg" src={src}></img>
+       <img src={src} alt="productimg" className="productimage"/>
         
     
 
 )
 
-export default Cardimg
+export default Cardimg 
